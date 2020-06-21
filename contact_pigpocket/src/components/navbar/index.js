@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default observer(() => {
   const classes = useStyles();
+  // Declare a new state variable, which we'll call "value"
   const [value, setValue] = React.useState(0);
 
   const handleChange = (newValue) => {
@@ -38,6 +39,10 @@ export default observer(() => {
             to={"/contact"}
           />
           <Tab label="FAQ" value={"/faq"} component={Link} to={"/faq"} />
+          <p>You clicked {value} times</p>
+          <button onClick={() => setValue(value + 1)}>
+    Click me
+  </button>
         </Tabs>
       </AppBar>
     </div>
