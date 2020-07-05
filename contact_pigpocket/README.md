@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Installing mobx
+
+$ npm i --save mobx mobx-react
+
+## Go to ./contact_pigpocket/src/components/navbar/index.js
+
+## mobx observer info 
+
+https://mobx.js.org/refguide/observer-component.html
+
+## react hooks
+
+https://en.reactjs.org/docs/hooks-state.html
